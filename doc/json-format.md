@@ -3,7 +3,7 @@
 Even though Shields is probably best known for its SVG badges, you can also retrieve
 a JSON payload by replacing the `.svg` extension with `.json`.
 
-For instance, hitting [this endpoint](https://img.shields.io/badge/hello-world-brightgreen.json)
+For instance, hitting [this endpoint](https://shields.eplus.dev/badge/hello-world-brightgreen.json)
 will generate the following payload:
 
 ```

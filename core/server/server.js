@@ -406,7 +406,7 @@ class Server {
    * Set up a couple of redirects:
    * One for the raster badges.
    * Another to redirect the base URL /
-   * (we use this to redirect {@link https://img.shields.io/}
+   * (we use this to redirect {@link https://shields.eplus.dev/}
    * to {@link https://shields.io/} )
    */
   registerRedirects() {

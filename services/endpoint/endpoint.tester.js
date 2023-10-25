@@ -250,7 +250,7 @@ t.create('Bad scheme')
   .expectBadge({ label: 'custom badge', message: 'please use https' })
 
 t.create('Blocked domain')
-  .get('.json?url=https://img.shields.io/badge/foo-bar-blue.json')
+  .get('.json?url=https://shields.eplus.dev/badge/foo-bar-blue.json')
   .expectBadge({ label: 'custom badge', message: 'domain is blocked' })
 
 // https://github.com/badges/shields/issues/3780

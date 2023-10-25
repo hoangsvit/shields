@@ -7,13 +7,13 @@ const description = `<p>
 <ul>
   <li>
     Label, message and color separated by a dash <code>-</code>. For example:<br />
-    <img alt="any text: you like" src="https://img.shields.io/badge/any_text-you_like-blue" /> -
-    <a href="https://img.shields.io/badge/any_text-you_like-blue">https://img.shields.io/badge/any_text-you_like-blue</a>
+    <img alt="any text: you like" src="https://shields.eplus.dev/badge/any_text-you_like-blue" /> -
+    <a href="https://shields.eplus.dev/badge/any_text-you_like-blue">https://shields.eplus.dev/badge/any_text-you_like-blue</a>
   </li>
   <li>
     Message and color only, separated by a dash <code>-</code>. For example:<br />
-    <img alt="just the message" src="https://img.shields.io/badge/just%20the%20message-8A2BE2" /> -
-    <a href="https://img.shields.io/badge/just%20the%20message-8A2BE2">https://img.shields.io/badge/just%20the%20message-8A2BE2</a>
+    <img alt="just the message" src="https://shields.eplus.dev/badge/just%20the%20message-8A2BE2" /> -
+    <a href="https://shields.eplus.dev/badge/just%20the%20message-8A2BE2">https://shields.eplus.dev/badge/just%20the%20message-8A2BE2</a>
   </li>
 </ul>
 <table>

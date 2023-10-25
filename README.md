@@ -4,26 +4,26 @@
 </p>
 <p align="center">
     <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/badges/shields" /></a>
+        <img src="https://shields.eplus.dev/github/contributors/badges/shields" /></a>
     <a href="#backers" alt="Backers on Open Collective">
-        <img src="https://img.shields.io/opencollective/backers/shields" /></a>
+        <img src="https://shields.eplus.dev/opencollective/backers/shields" /></a>
     <a href="#sponsors" alt="Sponsors on Open Collective">
-        <img src="https://img.shields.io/opencollective/sponsors/shields" /></a>
+        <img src="https://shields.eplus.dev/opencollective/sponsors/shields" /></a>
     <a href="https://github.com/badges/shields/pulse" alt="Activity">
-        <img src="https://img.shields.io/github/commit-activity/m/badges/shields" /></a>
+        <img src="https://shields.eplus.dev/github/commit-activity/m/badges/shields" /></a>
     <a href="https://circleci.com/gh/badges/shields/tree/master">
-        <img src="https://img.shields.io/circleci/project/github/badges/shields/master" alt="build status"></a>
+        <img src="https://shields.eplus.dev/circleci/project/github/badges/shields/master" alt="build status"></a>
     <a href="https://circleci.com/gh/badges/daily-tests">
-        <img src="https://img.shields.io/circleci/project/github/badges/daily-tests?label=service%20tests"
+        <img src="https://shields.eplus.dev/circleci/project/github/badges/daily-tests?label=service%20tests"
             alt="service-test status"></a>
     <a href="https://coveralls.io/github/badges/shields">
-        <img src="https://img.shields.io/coveralls/github/badges/shields"
+        <img src="https://shields.eplus.dev/coveralls/github/badges/shields"
             alt="coverage"></a>
     <a href="https://discord.gg/HjJCwm5">
-        <img src="https://img.shields.io/discord/308323056592486420?logo=discord"
+        <img src="https://shields.eplus.dev/discord/308323056592486420?logo=discord"
             alt="chat on Discord"></a>
     <a href="https://twitter.com/intent/follow?screen_name=shields_io">
-        <img src="https://img.shields.io/twitter/follow/shields_io?style=social&logo=X"
+        <img src="https://shields.eplus.dev/twitter/follow/shields_io?style=social&logo=X"
             alt="follow on Twitter"></a>
 </p>
 
@@ -56,21 +56,21 @@ This repo hosts:
 
 ## Examples
 
-- code coverage percentage: ![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen)
-- stable release version: ![version](https://img.shields.io/badge/version-1.2.3-blue)
-- package manager release: ![gem](https://img.shields.io/badge/gem-2.2.0-blue)
-- status of third-party dependencies: ![dependencies](https://img.shields.io/badge/dependencies-out%20of%20date-orange)
-- static code analysis grade: ![codacy](https://img.shields.io/badge/codacy-B-green)
-- [SemVer](https://semver.org/) version observance: ![semver](https://img.shields.io/badge/semver-2.0.0-blue)
-- amount of [Liberapay](https://liberapay.com/) donations per week: ![receives](https://img.shields.io/badge/receives-2.00%20USD%2Fweek-yellow)
-- Python package downloads: ![downloads](https://img.shields.io/badge/downloads-13k%2Fmonth-brightgreen)
-- Chrome Web Store extension rating: ![rating](https://img.shields.io/badge/rating-★★★★☆-brightgreen)
-- [Uptime Robot](https://uptimerobot.com) percentage: ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
+- code coverage percentage: ![coverage](https://shields.eplus.dev/badge/coverage-80%25-yellowgreen)
+- stable release version: ![version](https://shields.eplus.dev/badge/version-1.2.3-blue)
+- package manager release: ![gem](https://shields.eplus.dev/badge/gem-2.2.0-blue)
+- status of third-party dependencies: ![dependencies](https://shields.eplus.dev/badge/dependencies-out%20of%20date-orange)
+- static code analysis grade: ![codacy](https://shields.eplus.dev/badge/codacy-B-green)
+- [SemVer](https://semver.org/) version observance: ![semver](https://shields.eplus.dev/badge/semver-2.0.0-blue)
+- amount of [Liberapay](https://liberapay.com/) donations per week: ![receives](https://shields.eplus.dev/badge/receives-2.00%20USD%2Fweek-yellow)
+- Python package downloads: ![downloads](https://shields.eplus.dev/badge/downloads-13k%2Fmonth-brightgreen)
+- Chrome Web Store extension rating: ![rating](https://shields.eplus.dev/badge/rating-★★★★☆-brightgreen)
+- [Uptime Robot](https://uptimerobot.com) percentage: ![uptime](https://shields.eplus.dev/badge/uptime-100%25-brightgreen)
 
 [Make your own badges!][custom badges]
-(Quick example: `https://img.shields.io/badge/left-right-f39f37`)
+(Quick example: `https://shields.eplus.dev/badge/left-right-f39f37`)
 
-[custom badges]: https://img.shields.io/badges/static-badge
+[custom badges]: https://shields.eplus.dev/badges/static-badge
 
 ### Quickstart
 
@@ -90,7 +90,7 @@ maybe you'd like to open a pull request to address one of them.
 
 You can read a [tutorial on how to add a badge][tutorial].
 
-[![GitHub issues by-label](https://img.shields.io/github/issues/badges/shields/good%20first%20issue)](https://github.com/badges/shields/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+[![GitHub issues by-label](https://shields.eplus.dev/github/issues/badges/shields/good%20first%20issue)](https://github.com/badges/shields/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 If you intend on reporting or contributing a fix related to security vulnerabilities, please first refer to our [security policy][security].
 
@@ -116,7 +116,7 @@ either run `npm run defs` or manually restart the server.
 
 To debug a badge from the command line, run `npm run badge -- /npm/v/nock`.
 It also works with full URLs like
-`npm run badge -- https://img.shields.io/npm/v/nock`.
+`npm run badge -- https://shields.eplus.dev/npm/v/nock`.
 
 Use `npm run debug:server` to start server in debug mode.
 [This recipe][nodemon debug] shows how to debug Node.js application in [VS Code][].

@@ -19,7 +19,7 @@ const queryParamSchema = Joi.object({
 const moreDocs = `
 <p>
   Important: If your project is publicly visible, but the badge is like this:
-  <img src="https://img.shields.io/badge/coverage-not&nbsp;set&nbsp;up-red" alt="coverage not set up"/>
+  <img src="https://shields.eplus.dev/badge/coverage-not&nbsp;set&nbsp;up-red" alt="coverage not set up"/>
 </p>
 <p>
   Check if your pipelines are publicly visible as well.<br />
