@@ -65,7 +65,7 @@ Each service has a directory for its files:
   This might be the case when you add a badge for an API which is already used
   by other badges.
 
-  Imagine a service that lives at https://img.shields.io/example/some-param-here.
+  Imagine a service that lives at https://shields.eplus.dev/example/some-param-here.
 
   - For services with a single badge, the badge code will generally be stored in
     `/services/example/example.service.js`.
@@ -157,7 +157,7 @@ To try out this example badge:
 2. The server should restart on its own. (If it doesn't for some reason, quit
    the running server with `Control+C`, then start it again with `npm start`.)
 3. Visit the badge at <http://localhost:8080/example/foo>.
-   It should look like this: ![](https://img.shields.io/badge/example-foo-blue)
+   It should look like this: ![](https://shields.eplus.dev/badge/example-foo-blue)
 
 [path-to-regexp]: https://github.com/pillarjs/path-to-regexp#parameters
 [static]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/static
@@ -247,9 +247,9 @@ Description of the code:
 
 10. Upward still, the `static render()` method is responsible for formatting the data for display. `render()` is a pure function so we can make it a `static` method. By convention we declare functions which don't reference `this` as `static`. We could explicitly return an object here, as we did in the previous example. In this case, we will hand the version string off to `renderVersionBadge()` which will format it consistently and set an appropriate color. Because `renderVersionBadge()` doesn't return a `label` key, the default label we defined in `defaultBadgeData` will be used when we generate the badge.
 
-This code allows us to call this URL <https://img.shields.io/gem/v/formatador> to generate this badge: ![](https://img.shields.io/gem/v/formatador)
+This code allows us to call this URL <https://shields.eplus.dev/gem/v/formatador> to generate this badge: ![](https://shields.eplus.dev/gem/v/formatador)
 
-It is also worth considering the code we _haven't_ written here. Note that our example doesn't contain any explicit error handling code, but our badge handles errors gracefully. For example, if we call https://img.shields.io/gem/v/does-not-exist we render a 'not found' badge ![](https://img.shields.io/gem/v/does-not-exist) because https://rubygems.org/api/v1/gems/this-package-does-not-exist.json returns a `404 Not Found` status code. When dealing with well-behaved APIs, some of our error handling will be handled implicitly in `BaseJsonService`.
+It is also worth considering the code we _haven't_ written here. Note that our example doesn't contain any explicit error handling code, but our badge handles errors gracefully. For example, if we call https://shields.eplus.dev/gem/v/does-not-exist we render a 'not found' badge ![](https://shields.eplus.dev/gem/v/does-not-exist) because https://rubygems.org/api/v1/gems/this-package-does-not-exist.json returns a `404 Not Found` status code. When dealing with well-behaved APIs, some of our error handling will be handled implicitly in `BaseJsonService`.
 
 Specifically `BaseJsonService` will handle the following errors for us:
 

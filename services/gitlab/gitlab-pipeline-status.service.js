@@ -18,7 +18,7 @@ const queryParamSchema = Joi.object({
 const moreDocs = `
 <p>
   Important: You must use the Project Path, not the Project Id. Additionally, if your project is publicly visible, but the badge is like this:
-  <img src="https://img.shields.io/badge/build-not&nbsp;found-red" alt="build not found"/>
+  <img src="https://shields.eplus.dev/badge/build-not&nbsp;found-red" alt="build not found"/>
 </p>
 <p>
   Check if your pipelines are publicly visible as well.<br />

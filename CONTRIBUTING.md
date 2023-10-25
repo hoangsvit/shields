@@ -18,7 +18,7 @@ contributors and the person who filed the expense will be reimbursed.
 This project has quite a backlog of suggestions! If you're new to the project,
 maybe you'd like to open a pull request to address one of them:
 
-[![GitHub issues by-label](https://img.shields.io/github/issues/badges/shields/good%20first%20issue.svg)](https://github.com/badges/shields/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+[![GitHub issues by-label](https://shields.eplus.dev/github/issues/badges/shields/good%20first%20issue.svg)](https://github.com/badges/shields/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 ### Contributing documentation
 

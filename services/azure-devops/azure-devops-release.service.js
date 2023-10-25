@@ -14,7 +14,7 @@ Once you have save the change, look at badge url:
   alt="ORGANIZATION is after the dev.azure.com part, PROJECT_ID is after the badge part, DEFINITION_ID and ENVIRONMENT_ID are right after that." />
 
 Your badge will then have the form:
-\`https://img.shields.io/vso/release/ORGANIZATION/PROJECT_ID/DEFINITION_ID/ENVIRONMENT_ID.svg\`.
+\`https://shields.eplus.dev/vso/release/ORGANIZATION/PROJECT_ID/DEFINITION_ID/ENVIRONMENT_ID.svg\`.
 `
 
 export default class AzureDevOpsRelease extends BaseSvgScrapingService {

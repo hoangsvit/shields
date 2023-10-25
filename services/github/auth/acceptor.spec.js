@@ -52,7 +52,7 @@ describe('Github token acceptor', function () {
 
     const qs = queryString.stringify({
       client_id: fakeClientId,
-      redirect_uri: 'https://img.shields.io/github-auth/done',
+      redirect_uri: 'https://shields.eplus.dev/github-auth/done',
     })
     const expectedLocationHeader = `https://github.com/login/oauth/authorize?${qs}`
     expect(res.headers.location).to.equal(expectedLocationHeader)

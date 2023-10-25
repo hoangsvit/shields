@@ -9,7 +9,7 @@ const FeatureList = [
       <>
         <img
           alt="build:passing"
-          src="https://img.shields.io/badge/build-passing-brightgreen"
+          src="https://shields.eplus.dev/badge/build-passing-brightgreen"
         />
         <br />
         Show metrics for your project. We've got badges for hundreds of
@@ -25,7 +25,7 @@ const FeatureList = [
         <br />
         <img
           alt="any text you like"
-          src="https://img.shields.io/badge/any%20text-you%20like-blue"
+          src="https://shields.eplus.dev/badge/any%20text-you%20like-blue"
         />
       </>
     ),

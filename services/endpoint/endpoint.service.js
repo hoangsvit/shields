@@ -27,7 +27,7 @@ const description = `<p>
   <h2>Example JSON Endpoint Response</h2>
   <code>&#123; "schemaVersion": 1, "label": "hello", "message": "sweet world", "color": "orange" &#125;</code>
   <h2>Example Shields Response</h2>
-  <img src="https://img.shields.io/badge/hello-sweet_world-orange" />
+  <img src="https://shields.eplus.dev/badge/hello-sweet_world-orange" />
 </div>
 <div>
   <h2>Schema</h2>

@@ -11,7 +11,7 @@
 
 ## 3.3.0
 
-- Readability improvements: a dark font color is automatically used when the badge's background is too light. For example: ![](https://img.shields.io/badge/hello-world-white)
+- Readability improvements: a dark font color is automatically used when the badge's background is too light. For example: ![](https://shields.eplus.dev/badge/hello-world-white)
 - Better CSS color compliance: thanks to a switch from _is-css-color_ to _[css-color-converter](https://www.npmjs.com/package/css-color-converter)_, you can use a wider range of color formats from the latest CSS specification, for example `rgb(0 255 0)`
 - Less dependencies: _badge-maker_ no longer depends on _camelcase_
 
@@ -111,11 +111,11 @@
 ### New Features
 
 - Semantic color aliases. Add support for:
-  - ![success](https://img.shields.io/badge/success-success.svg)
-  - ![important](https://img.shields.io/badge/important-important.svg)
-  - ![critical](https://img.shields.io/badge/critical-critical.svg)
-  - ![informational](https://img.shields.io/badge/informational-informational.svg)
-  - ![inactive](https://img.shields.io/badge/inactive-inactive.svg)
+  - ![success](https://shields.eplus.dev/badge/success-success.svg)
+  - ![important](https://shields.eplus.dev/badge/important-important.svg)
+  - ![critical](https://shields.eplus.dev/badge/critical-critical.svg)
+  - ![informational](https://shields.eplus.dev/badge/informational-informational.svg)
+  - ![inactive](https://shields.eplus.dev/badge/inactive-inactive.svg)
 - Add directory field to package.json (to help tools find this package in the repo)
 
 ### Bug Fixes

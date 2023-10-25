@@ -15,5 +15,5 @@ To give an example of how this might be useful, we create two types of tags on o
 
 In our case, this would allow us to make a badge that applies the filter `!server-*` to filter out the snapshot tags and just select the latest package tag.
 
-- ![tag badge without filter](https://img.shields.io/github/v/tag/badges/shields) - https://img.shields.io/github/v/tag/badges/shields
-- ![tag badge with filter](https://img.shields.io/github/v/tag/badges/shields?filter=%21server-%2A) - https://img.shields.io/github/v/tag/badges/shields?filter=%21server-%2A
+- ![tag badge without filter](https://shields.eplus.dev/github/v/tag/badges/shields) - https://shields.eplus.dev/github/v/tag/badges/shields
+- ![tag badge with filter](https://shields.eplus.dev/github/v/tag/badges/shields?filter=%21server-%2A) - https://shields.eplus.dev/github/v/tag/badges/shields?filter=%21server-%2A

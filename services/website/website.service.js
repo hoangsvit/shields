@@ -11,7 +11,7 @@ import trace from '../../core/base-service/trace.js'
 
 const documentation = `
 The badge is of the form
-\`https://img.shields.io/website/PROTOCOL/URLREST.svg\`.
+\`https://shields.eplus.dev/website/PROTOCOL/URLREST.svg\`.
 
 The whole URL is obtained by concatenating the \`PROTOCOL\`
 (\`http\` or \`https\`, for example) with the
@@ -19,7 +19,7 @@ The whole URL is obtained by concatenating the \`PROTOCOL\`
 
 The existence of a specific path on the server can be checked by appending
 a path after the domain name, e.g.
-\`https://img.shields.io/website/http/www.website.com/path/to/page.html.svg\`.
+\`https://shields.eplus.dev/website/http/www.website.com/path/to/page.html.svg\`.
 
 The messages and colors for the up and down states can also be customized.
 `

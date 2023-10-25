@@ -117,14 +117,14 @@ function getBaseUrl() {
 
   When we promote to production we want https://shields.io/ and
   https://www.shields.io/ to both generate badges with the base
-  https://img.shields.io/
+  https://shields.eplus.dev/
 
   For local dev, we can deal with setting the api and front-end
   being on different ports using the BASE_URL env var
   */
   const { protocol, hostname, port } = window.location
   if (['shields.io', 'www.shields.io'].includes(hostname)) {
-    return 'https://img.shields.io'
+    return 'https://shields.eplus.dev'
   }
   if (!port) {
     return `${protocol}//${hostname}`

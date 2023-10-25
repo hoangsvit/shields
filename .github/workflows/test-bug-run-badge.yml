@@ -14,12 +14,12 @@ jobs:
       - name: Test badge test run conditions
         id: testCondition
         env:
-          ISSUE_BODY: '${{ github.event.issue.body }}'
+          ISSUE_BODY: "${{ github.event.issue.body }}"
         run: |
           product=$(echo "$ISSUE_BODY" | grep -A2 "Are you experiencing an issue with.*" | tail -n 1)
           link=$(echo "$ISSUE_BODY" | grep -A2 "Link to the badge.*" | tail -n 1)
 
-          if [[ "$product" == "shields.io" && "$link" == "https://img.shields.io"* ]]; then
+          if [[ "$product" == "shields.io" && "$link" == "https://shields.eplus.dev"* ]]; then
             echo "runNext=true" >> "$GITHUB_OUTPUT"
             echo "link=$link" >> "$GITHUB_OUTPUT"
           else
@@ -45,7 +45,7 @@ jobs:
 
       - name: Output debug info
         env:
-          TEST_BADGE_LINK: '${{ needs.extract-bug-badge-url.outputs.link }}'
+          TEST_BADGE_LINK: "${{ needs.extract-bug-badge-url.outputs.link }}"
         run: npm run badge $TEST_BADGE_LINK
 
       - name: Add Comment to Issue

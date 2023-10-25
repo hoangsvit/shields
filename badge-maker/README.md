@@ -1,8 +1,8 @@
 # badge-maker
 
-[![npm version](https://img.shields.io/npm/v/badge-maker.svg)](https://npmjs.org/package/badge-maker)
-[![npm license](https://img.shields.io/npm/l/badge-maker.svg)](https://npmjs.org/package/badge-maker)
-[![npm type definitions](https://img.shields.io/npm/types/badge-maker)](https://npmjs.org/package/badge-maker)
+[![npm version](https://shields.eplus.dev/npm/v/badge-maker.svg)](https://npmjs.org/package/badge-maker)
+[![npm license](https://shields.eplus.dev/npm/l/badge-maker.svg)](https://npmjs.org/package/badge-maker)
+[![npm type definitions](https://shields.eplus.dev/npm/types/badge-maker)](https://npmjs.org/package/badge-maker)
 
 ## Installation
 
@@ -108,27 +108,27 @@ There are three ways to specify `color` and `labelColor`:
 - `hsl(...)`, `hsla(...)`
 - ![][aqua] ![][fuchsia] ![][lightslategray] etc.
 
-[brightgreen]: https://img.shields.io/badge/brightgreen-brightgreen.svg
-[success]: https://img.shields.io/badge/success-success.svg
-[green]: https://img.shields.io/badge/green-green.svg
-[yellow]: https://img.shields.io/badge/yellow-yellow.svg
-[yellowgreen]: https://img.shields.io/badge/yellowgreen-yellowgreen.svg
-[orange]: https://img.shields.io/badge/orange-orange.svg
-[important]: https://img.shields.io/badge/important-important.svg
-[red]: https://img.shields.io/badge/red-red.svg
-[critical]: https://img.shields.io/badge/critical-critical.svg
-[blue]: https://img.shields.io/badge/blue-blue.svg
-[informational]: https://img.shields.io/badge/informational-informational.svg
-[grey]: https://img.shields.io/badge/grey-grey.svg
-[gray]: https://img.shields.io/badge/gray-gray.svg
-[lightgrey]: https://img.shields.io/badge/lightgrey-lightgrey.svg
-[lightgray]: https://img.shields.io/badge/lightgray-lightgray.svg
-[inactive]: https://img.shields.io/badge/inactive-inactive.svg
-[9cf]: https://img.shields.io/badge/9cf-9cf.svg
-[#007fff]: https://img.shields.io/badge/%23007fff-007fff.svg
-[aqua]: https://img.shields.io/badge/aqua-aqua.svg
-[fuchsia]: https://img.shields.io/badge/fuchsia-fuchsia.svg
-[lightslategray]: https://img.shields.io/badge/lightslategray-lightslategray.svg
+[brightgreen]: https://shields.eplus.dev/badge/brightgreen-brightgreen.svg
+[success]: https://shields.eplus.dev/badge/success-success.svg
+[green]: https://shields.eplus.dev/badge/green-green.svg
+[yellow]: https://shields.eplus.dev/badge/yellow-yellow.svg
+[yellowgreen]: https://shields.eplus.dev/badge/yellowgreen-yellowgreen.svg
+[orange]: https://shields.eplus.dev/badge/orange-orange.svg
+[important]: https://shields.eplus.dev/badge/important-important.svg
+[red]: https://shields.eplus.dev/badge/red-red.svg
+[critical]: https://shields.eplus.dev/badge/critical-critical.svg
+[blue]: https://shields.eplus.dev/badge/blue-blue.svg
+[informational]: https://shields.eplus.dev/badge/informational-informational.svg
+[grey]: https://shields.eplus.dev/badge/grey-grey.svg
+[gray]: https://shields.eplus.dev/badge/gray-gray.svg
+[lightgrey]: https://shields.eplus.dev/badge/lightgrey-lightgrey.svg
+[lightgray]: https://shields.eplus.dev/badge/lightgray-lightgray.svg
+[inactive]: https://shields.eplus.dev/badge/inactive-inactive.svg
+[9cf]: https://shields.eplus.dev/badge/9cf-9cf.svg
+[#007fff]: https://shields.eplus.dev/badge/%23007fff-007fff.svg
+[aqua]: https://shields.eplus.dev/badge/aqua-aqua.svg
+[fuchsia]: https://shields.eplus.dev/badge/fuchsia-fuchsia.svg
+[lightslategray]: https://shields.eplus.dev/badge/lightslategray-lightslategray.svg
 [css color]: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [css/svg color]: http://www.w3.org/TR/SVG/types.html#DataTypeColor
 

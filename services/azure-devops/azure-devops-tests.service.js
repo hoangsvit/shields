@@ -31,10 +31,10 @@ First, you need to select your build definition and look at the url:
   alt="ORGANIZATION is after the dev.azure.com part, PROJECT is right after that, DEFINITION_ID is at the end after the id= part." />
 
 Your badge will then have the form:
-\`https://img.shields.io/azure-devops/tests/ORGANIZATION/PROJECT/DEFINITION_ID.svg\`.
+\`https://shields.eplus.dev/azure-devops/tests/ORGANIZATION/PROJECT/DEFINITION_ID.svg\`.
 
 Optionally, you can specify a named branch:
-\`https://img.shields.io/azure-devops/tests/ORGANIZATION/PROJECT/DEFINITION_ID/NAMED_BRANCH.svg\`.
+\`https://shields.eplus.dev/azure-devops/tests/ORGANIZATION/PROJECT/DEFINITION_ID/NAMED_BRANCH.svg\`.
 
 ${commonDocumentation}
 `,

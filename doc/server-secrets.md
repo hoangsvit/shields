@@ -34,7 +34,7 @@ for details.
 
 Several of the badges provided by Shields allow users to specify the target
 URL/server of the upstream instance to use via a query parameter in the badge URL
-(e.g. https://img.shields.io/nexus/s/com.google.guava/guava?server=https%3A%2F%2Foss.sonatype.org).
+(e.g. https://shields.eplus.dev/nexus/s/com.google.guava/guava?server=https%3A%2F%2Foss.sonatype.org).
 This supports scenarios where your users may need badges from multiple upstream
 targets, for example if you have more than one Nexus server.
 

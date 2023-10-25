@@ -14,7 +14,7 @@ Releases of badge-maker are done as and when needed, and not on any predetermine
 
 ## Shields.io service
 
-The [Shields.io Service][shields.io] consists of the frontend [https://shields.io][shields.io] website which allows users to browse and discover available badges, as well as the badge server backend that serves up requested badges (e.g. https://img.shields.io/badge/badges-rock-blue).
+The [Shields.io Service][shields.io] consists of the frontend [https://shields.io][shields.io] website which allows users to browse and discover available badges, as well as the badge server backend that serves up requested badges (e.g. https://shields.eplus.dev/badge/badges-rock-blue).
 
 This is the core, free, anonymous service available for anyone to use and which serves up hundreds of millions of badges every month!
 
@@ -36,7 +36,7 @@ This Shields server is the exact same codebase that powers the main Shields.io s
 - We do not accept new badges that cannot be utilized with Shields.io (e.g. those that would always require user-specific authorization)
 - We do not do any additional testing nor validation of self-hosted instances (e.g. we test Shields.io with Jira Cloud badges, but we don't test a self-hosted Shields server against a self-hosted Jira server instance with auth)
 - We're happy to try to offer some tips and guidance to self-hosters when and where we can, but we don't have the ability to troubleshoot/debug/support/etc. self-hosted Shields servers
-  - Note that Paul, a core team member, offers some paid support options for those interested in self-hosting support. Contact him at ![](https://img.shields.io/badge/paul-%40m6ize.com-blue) for more information.
+  - Note that Paul, a core team member, offers some paid support options for those interested in self-hosting support. Contact him at ![](https://shields.eplus.dev/badge/paul-%40m6ize.com-blue) for more information.
 
 We are happy to document and collate any self-hosting patterns/approaches that others have found to be helpful to be able to share with the broader community. If you have any self-hosting material you'd like to share, please feel free to get in contact with us (or even open a PR) and we'll work with you to get that incorporated for the benefit of other self-hosters!
 
